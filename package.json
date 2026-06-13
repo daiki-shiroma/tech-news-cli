@@ -1,9 +1,9 @@
 {
-  "name": "tech-news-cli",
+  "name": "@shiromie/tech-news-cli",
   "version": "0.1.0",
   "description": "High-performance Go-powered Hacker News CLI, optimized for humans and AI.",
   "bin": {
-    "tech-news": "bin/tech-news"
+    "tech-news-cli": "bin/tech-news"
   },
   "files": [
     "bin",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shiromadaiki/tech-news-cli.git"
+    "url": "git+https://github.com/daiki-shiroma/tech-news-cli.git"
   },
   "keywords": [
     "hacker-news",
