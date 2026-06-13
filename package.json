@@ -1,0 +1,36 @@
+{
+  "name": "tech-news-cli",
+  "version": "0.1.0",
+  "description": "High-performance Go-powered Hacker News CLI, optimized for humans and AI.",
+  "bin": {
+    "tech-news": "bin/tech-news"
+  },
+  "files": [
+    "bin",
+    "main.go",
+    "go.mod",
+    "go.sum",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "go build -o bin/tech-news main.go",
+    "prepublishOnly": "npm run build",
+    "postinstall": "go build -o bin/tech-news main.go || echo 'Warning: Go not found, you may need to build manually.'",
+    "version": "git add -A",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiromadaiki/tech-news-cli.git"
+  },
+  "keywords": [
+    "hacker-news",
+    "cli",
+    "go",
+    "news",
+    "ai"
+  ],
+  "author": "Daiki Shiroma",
+  "license": "MIT"
+}
