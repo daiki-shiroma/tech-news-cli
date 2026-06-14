@@ -32,5 +32,8 @@
     "ai"
   ],
   "author": "Daiki Shiroma",
-  "license": "MIT"
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
 }
