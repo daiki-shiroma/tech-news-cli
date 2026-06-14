@@ -102,7 +102,7 @@ func main() {
 	rootCmd := &cobra.Command{
 		Use:   "tech-news",
 		Short: "Hacker News CLI",
-		Long: `tech-news-cli is a high-performance command-line interface for browsing Hacker News.
+		Long: `tech-news is a high-performance command-line interface for browsing Hacker News.
 It leverages Go's concurrency to fetch data in parallel, making it ideal for both
 developers and AI agents who need quick access to tech news and discussions.`,
 		Example: `  tech-news list --number 20

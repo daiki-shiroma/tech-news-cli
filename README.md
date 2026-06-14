@@ -4,10 +4,10 @@ High-performance Hacker News CLI, powered by Go.
 
 <br/>
 
-<a href="https://github.com/shiromadaiki/tech-news-cli/actions"><img src="https://github.com/shiromadaiki/tech-news-cli/workflows/Build/badge.svg" /></a>
-<a href="https://www.npmjs.com/package/tech-news-cli"><img src="https://img.shields.io/npm/v/tech-news-cli.svg" /></a>
-<a href="https://www.npmjs.com/package/tech-news-cli"><img src="https://img.shields.io/npm/dm/tech-news-cli.svg" /></a>
-<a href="https://github.com/shiromadaiki/tech-news-cli/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/tech-news-cli.svg" /></a>
+<a href="https://github.com/daiki-shiroma/tech-news-cli/actions"><img src="https://github.com/daiki-shiroma/tech-news-cli/workflows/Build/badge.svg" /></a>
+<a href="https://www.npmjs.com/package/@shiromie/tech-news-cli"><img src="https://img.shields.io/npm/v/@shiromie/tech-news-cli.svg" /></a>
+<a href="https://www.npmjs.com/package/@shiromie/tech-news-cli"><img src="https://img.shields.io/npm/dm/@shiromie/tech-news-cli.svg" /></a>
+<a href="https://github.com/daiki-shiroma/tech-news-cli/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/@shiromie/tech-news-cli.svg" /></a>
 
 <br/>
 
@@ -24,16 +24,16 @@ High-performance Hacker News CLI, powered by Go.
 
 ## Introduction
 
-`tech-news-cli` is a high-performance command-line interface for browsing Hacker News. It is built in Go to leverage its powerful concurrency model, allowing for rapid fetching of story details and comments through parallel requests.
+`tech-news` is a high-performance command-line interface for browsing Hacker News. It is built in Go to leverage its powerful concurrency model, allowing for rapid fetching of story details and comments through parallel requests.
 
-Whether you are a human browsing for the latest tech trends or an AI agent like Claude Code or Cursor looking for structured data, `tech-news-cli` provides the speed and flexibility you need.
+Whether you are a human browsing for the latest tech trends or an AI agent like Claude Code or Cursor looking for structured data, `tech-news` provides the speed and flexibility you need.
 
 ## Installation
 
 Install globally via NPM:
 
 ```bash
-npm install -g tech-news-cli
+npm install -g @shiromie/tech-news-cli
 ```
 
 *Note: The NPM package includes pre-compiled binaries for major platforms (macOS, Linux, Windows).*
@@ -76,7 +76,7 @@ tech-news view 8863 --json
 
 ## AI Integration
 
-`tech-news-cli` is designed to be the eyes and ears of your AI development assistant. You can instruct your AI to:
+`tech-news` is designed to be the eyes and ears of your AI development assistant. You can instruct your AI to:
 
 1.  "Fetch the top 10 stories from Hacker News in JSON."
 2.  "Find articles related to 'LLMs' or 'Rust' from that list."
@@ -84,4 +84,4 @@ tech-news view 8863 --json
 
 ## License
 
-MIT © [Daiki Shiroma](https://github.com/shiromadaiki)
+MIT © [Daiki Shiroma](https://github.com/daiki-shiroma)

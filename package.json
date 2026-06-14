@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "High-performance Go-powered Hacker News CLI, optimized for humans and AI.",
   "bin": {
-    "tech-news-cli": "bin/tech-news"
+    "tech-news": "bin/tech-news"
   },
   "files": [
     "bin",

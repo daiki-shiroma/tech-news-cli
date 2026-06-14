@@ -1,4 +1,4 @@
-module github.com/shiromadaiki/tech-news-cli
+module github.com/daiki-shiroma/tech-news-cli
 
 go 1.25.0
 
